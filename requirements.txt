@@ -31,3 +31,8 @@ typing_extensions==4.12.2
 email-validator>=2.2.0
 uritemplate==4.1.1
 urllib3==2.3.0
+llama-index>=0.12.26
+openai>=1.69.0
+pandas>=2.2.3
+psycopg2-binary>=2.9.10
+sift-stack-py>=0.4.2
