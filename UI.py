@@ -80,9 +80,8 @@ Sample file_data = [
 ]
 
 Sample error_data = [
-    ["Name", "should not be empty or it should start with A"],
-    ["Age", "should be integer"],
-    ["Age", "should be within range(18,100)"],
+    ["Name", "should not be empty or it should  not start with A"],
+      ["Age", "should be a integer and  within range(18,100)"],
     ["City", "should not be empty"]
 ]
 
@@ -101,25 +100,19 @@ Sample output:
               <td>3</td>
               <td>Name</td>
               <td>Alice</td>
-              <td>should not be empty or it should start with A</td>
+              <td>should not be empty or it should not start   with A</td>
             </tr>
             <tr>
               <td>5</td>
               <td>Name</td>
               <td></td>
-              <td>should not be empty or it should start with A</td>
+              <td>should not be empty or it should not  start with A</td>
             </tr>
             <tr>
               <td>6</td>
               <td>Age</td>
               <td>abc</td>
-              <td>should be integer</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>Age</td>
-              <td>abc</td>
-              <td>should be within range(18,100)</td>
+              <td>should be a integer and  within range(18,100)</td>
             </tr>
           </tbody>
         </table>
