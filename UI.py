@@ -132,7 +132,7 @@ error_data: error_file_data '''
     print(prompt)
     client = genai.Client(api_key="AIzaSyCc2Cit_TfxW_R6n2wpvE4woaDIlwGV6vM")
     response = client.models.generate_content(
-    model="gemini-2.5-pro-preview-05-06", contents=prompt
+    model="gemini-2.0-flash", contents=prompt
 )
 
     
