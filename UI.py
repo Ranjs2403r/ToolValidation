@@ -67,6 +67,7 @@ The validation column in error_data can have multiple condition with  or/and . I
 Do the validation of file_data provided in input Data and  Give the output as provided in sample output.
 Data in the 'User ID' and 'Prot_ID' columns are either email addresses or non-email alphanumberic string.Consider anything which ends @syf.com as the only valid email address for User_ID and Prot_id column .
 Data in the email column can be any valid email address like gmail.com or yahoo.com
+Last_4_acct is number field . Convert it to string and then do the validation from the error_file
 Do not include any sample code in the output.
 Below is the  sample file_data and error_data
 Sample file_data = [
@@ -131,7 +132,7 @@ error_data: error_file_data '''
     print(prompt)
     client = genai.Client(api_key="AIzaSyCc2Cit_TfxW_R6n2wpvE4woaDIlwGV6vM")
     response = client.models.generate_content(
-    model="gemini-2.0-flash", contents=prompt
+    model="gemini-2.5-flash-preview-04-17", contents=prompt
 )
 
     
