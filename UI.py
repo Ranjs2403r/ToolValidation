@@ -65,9 +65,9 @@ Do a data validation on a set of data  given when error data is provided . The o
 Consider the value in the 1st column in error_data as the column name in file_data and the second column in error_data is the validation which needs to performed on the corresponding column data  in file_data .Provide an output in html Table format mentioning the Validation message , column name and column value when the validation message in not satisfied.
 The validation column in error_data can have multiple condition with  or/and . In case multiple condition , the validation should consider both the condtions.
 Do the validation of file_data provided in input Data and  Give the output as provided in sample output.
-Data in the 'User ID' and 'Prot_ID' columns are either email addresses or non-email alphanumberic string.Consider anything which ends @syf.com as the only valid email address for User_ID and Prot_id column .
-Data in the email column can be any valid email address like gmail.com or yahoo.com
-Last_4_acct is number field . Convert it to string and then do the validation from the error_file
+Data in the 'User ID' and 'Prot_ID' columns are either email addresses or non-email alphanumberic string.Consider anything which ends @syf.com as the only valid email address for User_ID and Prot_id column .Check the length of a string using len() function in python or length() in java .
+Data in the email column can be any valid email address from any email domain like gmail.com , yahoo.com,hotmail.com. Consider this as valid email address
+Data in Last_4_acct column contains integer values .
 Do not include any sample code in the output.
 Below is the  sample file_data and error_data
 Sample file_data = [
